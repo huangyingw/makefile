@@ -1,7 +1,6 @@
 OBJECTS = test.exe
 CC = gcc
 CCFLAGS = -ansi -W -Wall -lstdc++
-LOCFLAGS =
 all: $(OBJECTS)
 %.o: %.cc %.cpp
 	$(CC) $(CCFLAGS) $(LOCFLAGS) -c $< -o $@
