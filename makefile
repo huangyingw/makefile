@@ -11,4 +11,4 @@ clean:
 	rm -rf *.o core *.stackdump
 clobber: clean
 	rm -rf *.exe
-LOCFLAGS = -I../singleton
+LOCFLAGS = -I../makefile
