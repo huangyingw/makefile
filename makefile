@@ -2,7 +2,7 @@
 ## Simple .so Makefile
 #
 #
-CC      := gcc
+#CC      := gcc
 LD      := ld
 CFLAGS  :=
 LDFLAGS := -shared -fpic
