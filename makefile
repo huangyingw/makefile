@@ -1,2 +1,3 @@
-run : test.c
-	gcc test.c -o run -ansi -W -Wall -lstdc++
+OBJECTS = bitsort.exe
+include ../../GNU_makefile_template
+LOCFLAGS = -I../bitsort
