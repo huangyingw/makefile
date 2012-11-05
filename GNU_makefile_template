@@ -1,5 +1,5 @@
 CC = g++
-CCFLAGS = -ansi -W -Wall -lstdc++
+CCFLAGS = -ansi -W -Wall -lstdc++ -pthread
 LOCFLAGS =
 all: $(OBJECTS)
 %.o: %.cc %.cpp
